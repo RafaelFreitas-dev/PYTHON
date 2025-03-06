@@ -36,9 +36,8 @@ print(frase[INICIO:FIM:SALTO])
 # EXEMPLOS DE FUNCIONALIDADES DE ANALISE DE STRINGS (CARACTERES)
 #======================================================================================
 
-'''frase = 'Curso em Video Python'
-print(len(frase))'''
-# len função para mostra a quantidade de caracteres do texto.
+'''frase = 'Curso em Video Python'''
+'''print(len(frase))''' # len função para mostra a quantidade de caracteres do texto.
 
 '''frase = 'Curso em Video Python'
 print(frase.count('o'))'''
@@ -61,11 +60,10 @@ print('Curso' in frase)'''
 print(frase.replace('Python', 'Android'))'''
 # A FUNÇÃO REPLACE ELA SUBSTITUI O TEXTO DA PALAVRA PYTHON POR ANDROID. é uma substituição secundaria.
 
-'''frase = 'Curso em Video Python'
-print(frase.upper())
-print(frase.lower())'''
-# função upper é um metodo deixando todos as letras MAIUSCULAS
-# função lower deixa todos as letras MINUSCULAS
+'''frase = 'Curso em Video Python'''
+'''print(frase.upper())''' # função upper é um metodo deixando todos as letras MAIUSCULAS
+'''print(frase.lower())''' # função lower deixa todos as letras MINUSCULAS
+
 
 '''frase = 'Curso em Video Python'
 print(frase.capitalize())'''
@@ -88,9 +86,9 @@ print(frase.lstrip())  # ELIMINA SÓ OS ESPAÇOS DA ESQUERDA L(LIFT)'''
 # EXEMPLOS DE FUNCIONALIDADES DE DIVISÃO DE STRINGS (CARACTERES)
 #======================================================================================
 
-'''frase = '   Curso em Video Python   '
-print(frase.split())'''
-# a função split ele cria uma divisão entre as palavras, ele vai transforma uma string em uma lista exemplo ['Curso', 'em', 'Video', 'Python']
+'''frase = '   Curso em Video Python   ' '''
+'''print(frase.split())''' # a função split ele cria uma divisão entre as palavras, ele vai transforma uma string em uma lista exemplo ['Curso', 'em', 'Video', 'Python']
+
 
 frase = '   Curso em Video Python   '
 print('-'.join(frase))
